@@ -1,4 +1,5 @@
-import { useState } from 'react';
+import PropTypes from 'prop-types';
+
 
 function ListOfShows ({ shows }) {
   return (
@@ -28,6 +29,15 @@ function ListOfShows ({ shows }) {
     </ul>
   )
 }
+
+ListOfShows.propTypes = {
+  shows: PropTypes.array.isRequired
+};
+
+ShowTVShows.propTypes = {
+  shows: PropTypes.array.isRequired
+};
+
 
 function NoShowsResults () {
   return (

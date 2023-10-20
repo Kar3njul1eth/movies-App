@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { ModalMovie } from '../components/ModalMovie.jsx'
+import PropTypes from 'prop-types';
 
 function ListOfMovies ({ movies, onMovieClick }) {
   return (
@@ -28,6 +29,15 @@ function ListOfMovies ({ movies, onMovieClick }) {
     </ul>
   )
 }
+
+ListOfMovies.propTypes = {
+  movies: PropTypes.array.isRequired,
+  onMovieClick: PropTypes.func.isRequired
+};
+
+ShowMovies.propTypes = {
+  movies: PropTypes.array.isRequired
+};
 
 function NoMoviesResults () {
   return (

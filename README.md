@@ -1,8 +1,53 @@
-# React + Vite
+# Movies-App
+Application in React, that allows you to search for movies and TV shows.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![Movies](readme-image.png)
+## About 📖
+Application in React, that allows you to search for movies and TV shows. In the movies section, users can click on a movie and see more details, such as: synopsis, release date, and genre. And in the TV shows section it allows you to search and filter by date.
 
-Currently, two official plugins are available:
+*(TMDb) API is used in this app. More information  [here](https://developer.themoviedb.org/)*.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+## Built With 🛠👩🏻‍💻
+
+- [React] (https://react.dev/) - Makes it easy to build interactive and reactive user interfaces.
+- [Vite] (https://vitejs.dev/) - Allows fast and efficient compilation.
+- [Fetch] (https://developer.mozilla.org/es/docs/Web/API/Fetch_API/Using_Fetch) - The Fetch API provides a JavaScript interface for accessing and manipulating data.
+
+### Recommended Setup
+- [Visual studio code](https://code.visualstudio.com/)
+- [Git](https://git-scm.com/)
+- [Yarn](https://yarnpkg.com/getting-started/install)
+
+## How to run de project 🏃🏽
+
+### Install Dependencies
+Ensure that you have Node.js and yarn (or npm) installed on your machine. Then, navigate to the project directory and run the following command to install dependencies:
+
+```sh
+yarn install
+```
+
+### Compile and Hot-Reload for Development
+
+```sh
+yarn dev
+```
+
+### Type-Check, Compile and Minify for Production
+
+```sh
+yarn build
+```
+
+### Lint with [ESLint](https://eslint.org/)
+
+```sh
+yarn lint
+```
+
+
+## Discuss 💬
+
+Have any questions, doubts or want to present your opinions, views? You're always welcome. You can [start discussions](https://github.com/Kar3njul1eth/movies-App/issues).
+

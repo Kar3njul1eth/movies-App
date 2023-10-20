@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types';
 export function ModalMovie({ movie, onClose }) {
   return (
     <div className="modal">
@@ -26,3 +27,13 @@ export function ModalMovie({ movie, onClose }) {
     </div>
   );
 }
+
+ModalMovie.propTypes = {
+  movie: PropTypes.shape({
+    title: PropTypes.string.isRequired,
+    poster: PropTypes.string,
+    release: PropTypes.string,
+    synopsis: PropTypes.string
+  }).isRequired,
+  onClose: PropTypes.func.isRequired
+};

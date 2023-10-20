@@ -1,3 +1,5 @@
+import PropTypes from 'prop-types';
+
 export function SelectionMenu({ onSelect }) {
   const handleSelect = (option) => {
     onSelect(option);
@@ -10,3 +12,7 @@ export function SelectionMenu({ onSelect }) {
     </div>
   );
 }
+
+SelectionMenu.propTypes = {
+  onSelect: PropTypes.func.isRequired
+};
