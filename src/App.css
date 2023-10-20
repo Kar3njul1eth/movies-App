@@ -55,7 +55,7 @@ form {
   border-radius: 8px;
   width: 240px;
   height: 360px;
-  margin: 16px;
+  margin-top: 16px;
   background-color: #D4D4D4;
   text-align: center;
 }
@@ -72,9 +72,9 @@ form {
   justify-content: center;
   border-radius: 8px;
   color: black;
-  display: flex; /* Agregado para usar flexbox */
-  flex-direction: column; /* Alinea los elementos verticalmente */
-  align-items: center; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .modal img {
   border-radius: 8px;
